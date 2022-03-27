@@ -1,0 +1,12 @@
+CRITICAL - 2022-03-27 12:34:05 --> Undefined variable: title
+#0 D:\New folder\ci4\pdb\app\Views\pendaftaran\index.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\New folder\\c...', 5, Array)
+#1 D:\New folder\ci4\pdb\system\View\View.php(210): include('D:\\New folder\\c...')
+#2 D:\New folder\ci4\pdb\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\New folder\ci4\pdb\system\Common.php(1089): CodeIgniter\View\View->render('pendaftaran/ind...', Array, true)
+#4 D:\New folder\ci4\pdb\app\Controllers\Home.php(9): view('pendaftaran/ind...')
+#5 D:\New folder\ci4\pdb\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 D:\New folder\ci4\pdb\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\New folder\ci4\pdb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\New folder\ci4\pdb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\New folder\ci4\pdb\system\Commands\Server\rewrite.php(43): require_once('D:\\New folder\\c...')
+#10 {main}

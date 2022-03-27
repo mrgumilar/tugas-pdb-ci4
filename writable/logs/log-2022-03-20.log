@@ -1,0 +1,111 @@
+CRITICAL - 2022-03-20 10:31:58 --> Undefined variable $title
+#0 C:\Users\Radya Labs\Desktop\ci4\pdb\app\Views\dashboard\index.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\Radya ...', 9)
+#1 C:\Users\Radya Labs\Desktop\ci4\pdb\system\View\View.php(210): include('C:\\Users\\Radya ...')
+#2 C:\Users\Radya Labs\Desktop\ci4\pdb\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Radya Labs\Desktop\ci4\pdb\system\Common.php(1089): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#4 C:\Users\Radya Labs\Desktop\ci4\pdb\app\Controllers\Dashboard.php(12): view('dashboard/index', Array)
+#5 C:\Users\Radya Labs\Desktop\ci4\pdb\system\CodeIgniter.php(825): App\Controllers\Dashboard->index()
+#6 C:\Users\Radya Labs\Desktop\ci4\pdb\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\Users\Radya Labs\Desktop\ci4\pdb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Radya Labs\Desktop\ci4\pdb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Radya Labs\Desktop\ci4\pdb\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Radya ...')
+#10 {main}
+CRITICAL - 2022-03-20 23:13:34 --> Invalid file: partials_/master.php
+#0 C:\Users\Radya Labs\Desktop\ci4\pdb\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials_/maste...')
+#1 C:\Users\Radya Labs\Desktop\ci4\pdb\system\View\View.php(226): CodeIgniter\View\View->render('partials_/maste...', Array, true)
+#2 C:\Users\Radya Labs\Desktop\ci4\pdb\system\Common.php(1089): CodeIgniter\View\View->render('agama/index', Array, true)
+#3 C:\Users\Radya Labs\Desktop\ci4\pdb\app\Controllers\Agama.php(20): view('agama/index', Array)
+#4 C:\Users\Radya Labs\Desktop\ci4\pdb\system\CodeIgniter.php(825): App\Controllers\Agama->index()
+#5 C:\Users\Radya Labs\Desktop\ci4\pdb\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Agama))
+#6 C:\Users\Radya Labs\Desktop\ci4\pdb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\Radya Labs\Desktop\ci4\pdb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\Radya Labs\Desktop\ci4\pdb\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Radya ...')
+#9 {main}
+CRITICAL - 2022-03-20 23:14:14 --> Undefined property: App\Controllers\Agama::$agama
+#0 C:\Users\Radya Labs\Desktop\ci4\pdb\app\Controllers\Agama.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\Users\\Radya ...', 28)
+#1 C:\Users\Radya Labs\Desktop\ci4\pdb\system\CodeIgniter.php(825): App\Controllers\Agama->getagama()
+#2 C:\Users\Radya Labs\Desktop\ci4\pdb\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Agama))
+#3 C:\Users\Radya Labs\Desktop\ci4\pdb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Radya Labs\Desktop\ci4\pdb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Radya Labs\Desktop\ci4\pdb\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Radya ...')
+#6 {main}
+CRITICAL - 2022-03-20 23:14:21 --> Undefined property: App\Controllers\Agama::$agama
+#0 C:\Users\Radya Labs\Desktop\ci4\pdb\app\Controllers\Agama.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\Users\\Radya ...', 28)
+#1 C:\Users\Radya Labs\Desktop\ci4\pdb\system\CodeIgniter.php(825): App\Controllers\Agama->getagama()
+#2 C:\Users\Radya Labs\Desktop\ci4\pdb\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Agama))
+#3 C:\Users\Radya Labs\Desktop\ci4\pdb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Radya Labs\Desktop\ci4\pdb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Radya Labs\Desktop\ci4\pdb\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Radya ...')
+#6 {main}
+CRITICAL - 2022-03-20 23:14:30 --> Undefined property: App\Controllers\Agama::$agama
+#0 C:\Users\Radya Labs\Desktop\ci4\pdb\app\Controllers\Agama.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\Users\\Radya ...', 28)
+#1 C:\Users\Radya Labs\Desktop\ci4\pdb\system\CodeIgniter.php(825): App\Controllers\Agama->getagama()
+#2 C:\Users\Radya Labs\Desktop\ci4\pdb\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Agama))
+#3 C:\Users\Radya Labs\Desktop\ci4\pdb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Radya Labs\Desktop\ci4\pdb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Radya Labs\Desktop\ci4\pdb\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Radya ...')
+#6 {main}
+CRITICAL - 2022-03-20 23:16:11 --> Undefined property: App\Controllers\Agama::$agama
+#0 C:\Users\Radya Labs\Desktop\ci4\pdb\app\Controllers\Agama.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\Users\\Radya ...', 28)
+#1 C:\Users\Radya Labs\Desktop\ci4\pdb\system\CodeIgniter.php(825): App\Controllers\Agama->getagama()
+#2 C:\Users\Radya Labs\Desktop\ci4\pdb\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Agama))
+#3 C:\Users\Radya Labs\Desktop\ci4\pdb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Radya Labs\Desktop\ci4\pdb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Radya Labs\Desktop\ci4\pdb\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Radya ...')
+#6 {main}
+CRITICAL - 2022-03-20 23:16:13 --> Undefined property: App\Controllers\Agama::$agama
+#0 C:\Users\Radya Labs\Desktop\ci4\pdb\app\Controllers\Agama.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\Users\\Radya ...', 28)
+#1 C:\Users\Radya Labs\Desktop\ci4\pdb\system\CodeIgniter.php(825): App\Controllers\Agama->getagama()
+#2 C:\Users\Radya Labs\Desktop\ci4\pdb\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Agama))
+#3 C:\Users\Radya Labs\Desktop\ci4\pdb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Radya Labs\Desktop\ci4\pdb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Radya Labs\Desktop\ci4\pdb\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Radya ...')
+#6 {main}
+CRITICAL - 2022-03-20 23:16:40 --> Undefined property: App\Controllers\Agama::$agama
+#0 C:\Users\Radya Labs\Desktop\ci4\pdb\app\Controllers\Agama.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\Users\\Radya ...', 28)
+#1 C:\Users\Radya Labs\Desktop\ci4\pdb\system\CodeIgniter.php(825): App\Controllers\Agama->getagama()
+#2 C:\Users\Radya Labs\Desktop\ci4\pdb\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Agama))
+#3 C:\Users\Radya Labs\Desktop\ci4\pdb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Radya Labs\Desktop\ci4\pdb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Radya Labs\Desktop\ci4\pdb\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Radya ...')
+#6 {main}
+CRITICAL - 2022-03-20 23:17:44 --> Class "App\Models\Modelkategori" not found
+#0 C:\Users\Radya Labs\Desktop\ci4\pdb\system\CodeIgniter.php(803): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 C:\Users\Radya Labs\Desktop\ci4\pdb\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\Users\Radya Labs\Desktop\ci4\pdb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Radya Labs\Desktop\ci4\pdb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Radya Labs\Desktop\ci4\pdb\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Radya ...')
+#5 {main}
+CRITICAL - 2022-03-20 23:18:50 --> Invalid file: partials_/master.php
+#0 C:\Users\Radya Labs\Desktop\ci4\pdb\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials_/maste...')
+#1 C:\Users\Radya Labs\Desktop\ci4\pdb\system\View\View.php(226): CodeIgniter\View\View->render('partials_/maste...', Array, true)
+#2 C:\Users\Radya Labs\Desktop\ci4\pdb\system\Common.php(1089): CodeIgniter\View\View->render('pendidikan/inde...', Array, true)
+#3 C:\Users\Radya Labs\Desktop\ci4\pdb\app\Controllers\Pendidikan.php(19): view('pendidikan/inde...', Array)
+#4 C:\Users\Radya Labs\Desktop\ci4\pdb\system\CodeIgniter.php(825): App\Controllers\Pendidikan->index()
+#5 C:\Users\Radya Labs\Desktop\ci4\pdb\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendidikan))
+#6 C:\Users\Radya Labs\Desktop\ci4\pdb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\Radya Labs\Desktop\ci4\pdb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\Radya Labs\Desktop\ci4\pdb\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Radya ...')
+#9 {main}
+CRITICAL - 2022-03-20 23:19:26 --> Invalid file: partials_/master.php
+#0 C:\Users\Radya Labs\Desktop\ci4\pdb\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials_/maste...')
+#1 C:\Users\Radya Labs\Desktop\ci4\pdb\system\View\View.php(226): CodeIgniter\View\View->render('partials_/maste...', Array, true)
+#2 C:\Users\Radya Labs\Desktop\ci4\pdb\system\Common.php(1089): CodeIgniter\View\View->render('pekerjaan/index', Array, true)
+#3 C:\Users\Radya Labs\Desktop\ci4\pdb\app\Controllers\Pekerjaan.php(20): view('pekerjaan/index', Array)
+#4 C:\Users\Radya Labs\Desktop\ci4\pdb\system\CodeIgniter.php(825): App\Controllers\Pekerjaan->index()
+#5 C:\Users\Radya Labs\Desktop\ci4\pdb\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pekerjaan))
+#6 C:\Users\Radya Labs\Desktop\ci4\pdb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\Radya Labs\Desktop\ci4\pdb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\Radya Labs\Desktop\ci4\pdb\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Radya ...')
+#9 {main}
+CRITICAL - 2022-03-20 23:20:13 --> Invalid file: partials_/master.php
+#0 C:\Users\Radya Labs\Desktop\ci4\pdb\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials_/maste...')
+#1 C:\Users\Radya Labs\Desktop\ci4\pdb\system\View\View.php(226): CodeIgniter\View\View->render('partials_/maste...', Array, true)
+#2 C:\Users\Radya Labs\Desktop\ci4\pdb\system\Common.php(1089): CodeIgniter\View\View->render('user/index', Array, true)
+#3 C:\Users\Radya Labs\Desktop\ci4\pdb\app\Controllers\Konfigurasi.php(301): view('user/index', Array)
+#4 C:\Users\Radya Labs\Desktop\ci4\pdb\system\CodeIgniter.php(825): App\Controllers\Konfigurasi->user()
+#5 C:\Users\Radya Labs\Desktop\ci4\pdb\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#6 C:\Users\Radya Labs\Desktop\ci4\pdb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\Radya Labs\Desktop\ci4\pdb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\Radya Labs\Desktop\ci4\pdb\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Radya ...')
+#9 {main}
